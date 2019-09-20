@@ -1,6 +1,16 @@
+body{
+    box-sizing: border-box;
+
+}
+
+
 section{
-  height: 400px;
-  width: 400px;
+  height: 800px;
+  width: 1200px;
+  background-image:url("../images/duck-hunt-background.png");
+  background-repeat: no-repeat;
+  background-size: 1200px 800px;
+
   border: 1px solid blue;
   position:relative;
 }
