@@ -11,19 +11,19 @@ function move(e) {
     console.log(event.keyCode);
     switch(e.keyCode){
         case 37:{
-            horizental -=10;
+            horizental -=5;
             break;
         }
         case 38:{
-            vertical -=10;
+            vertical -=5;
             break;
         }
         case 39:{
-            horizental +=10;
+            horizental +=5;
             break;
         }
         case 40:{
-            vertical +=10;
+            vertical +=5;
             break;
         }
         default: 
