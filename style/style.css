@@ -4,8 +4,8 @@
       width: 200px;
       background-color: red;
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 10;
+      left: 10;
       animation-name: moveIt;
       animation-duration: 15s;
       animation-iteration-count: infinite;
