@@ -7,8 +7,8 @@ body{
 
 
 section{
-  height: 800px;
-  width: 1900px;
+  height: 750px;
+  width: 1800px;
   margin: 10px;
 
 
@@ -22,7 +22,7 @@ section{
 
 #target{
   height: 10%;
-  width: 10%;
+  width: 3%;
   background-color: blueviolet;
   border: 1px solid black;
   position: absolute;
