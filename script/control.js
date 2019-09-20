@@ -7,7 +7,7 @@ let horizental = 40;
 let vertical = 40;
 
 function move(e) {
-    if(actice == true){
+    if(active == true){
     console.log(event.keyCode);
     switch(e.keyCode){
         case 37:{
