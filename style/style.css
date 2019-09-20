@@ -1,16 +1,17 @@
 body{
     box-sizing: border-box;
-    height: 1000px;
-    margin: auto;
+    margin: 0%;
+    min-width: 50%;
+    
 }
 
 section{
-  height: 90%;
-  width: 90%;
-  margin-right: 15px;
-  margin-left: 15px;
+  height: 800px;
+  width: 1900px;
+  margin: 10px;
 
-  background-image:url("../images/duck-hunt-background.png");
+
+  background-image:url("../images/img2.jpg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -26,8 +26,6 @@ function move(e) {
             break;
     }
     
-    
-
     if (horizental > 90) {
         horizental = 0;
     }else if ( horizental < 10){
@@ -43,3 +41,20 @@ function move(e) {
     document.querySelector("div").style.left = horizental + '%';
    
 }
+
+const bird = document.querySelector("#target");
+    
+    
+    bird.addEventListener("click", win);
+    
+    
+
+    function win(e) {
+      console.log("you won!");
+      
+      bird.style.backgroundColor = "red";
+      alert("it's victory!");
+      
+      
+    }
+
