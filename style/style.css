@@ -1,20 +1,17 @@
 body{
     box-sizing: border-box;
     margin: 0%;
-    min-width: 50%;
     
 }
 
 section{
-  height: 800px;
-  width: 1900px;
+  height: 900px;
   margin: 10px;
-
 
   background-image:url("../images/img2.jpg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 
   border: 1px solid red;
   position:relative;
