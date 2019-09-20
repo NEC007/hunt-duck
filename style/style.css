@@ -8,6 +8,7 @@ section{
   height: 400px;
   width: 400px;
   background-image:url("../images/duck-hunt-background.png");
+  
   border: 1px solid blue;
   position:relative;
 }
