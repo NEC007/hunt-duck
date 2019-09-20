@@ -1,17 +1,21 @@
 body{
     box-sizing: border-box;
-
+    
 }
 
 
 section{
   height: 800px;
   width: 1200px;
+  margin-right: 15px;
+  margin-left: 15px;
+
+
   background-image:url("../images/duck-hunt-background.png");
   background-repeat: no-repeat;
-  background-size: 1200px 800px;
+  background-size: cover;
 
-  border: 1px solid blue;
+  border: 1px solid red;
   position:relative;
 }
 
@@ -23,7 +27,8 @@ section{
   top:40%;
   left:40%;
   animation-name: moveIt;
-
+}
+/*
     @keyframes moveIt {
       0% {
         top: 0;
@@ -56,6 +61,7 @@ section{
 
 
 }
+*/
 /*
 
 #target {
