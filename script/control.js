@@ -30,8 +30,12 @@ function move(e) {
 
     if (horizental > 90) {
         horizental = 0;
-    }else if (vertical >90){
+    }else if ( horizental < 10){
+        horizental = 90;
+    }else if (vertical >90 ){
         vertical =0;
+    }else if (vertical < 10){
+        vertical =90;
     }
     
     
