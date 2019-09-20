@@ -1,9 +1,13 @@
+let active = true;
+
 document.addEventListener("keydown", move);
+
 
 let horizental = 40;
 let vertical = 40;
 
 function move(e) {
+    if(actice == true){
     console.log(event.keyCode);
     switch(e.keyCode){
         case 37:{
@@ -41,6 +45,7 @@ function move(e) {
     document.querySelector("div").style.left = horizental + '%';
    
 }
+}
 
 const bird = document.querySelector("#target");
     
@@ -54,6 +59,7 @@ const bird = document.querySelector("#target");
       
       bird.style.backgroundColor = "red";
       alert("it's victory!");
+      active = false;
       
       
     }

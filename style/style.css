@@ -5,7 +5,8 @@ body{
 }
 
 section{
-  height: 900px;
+  height: 750px;
+  width: 1800px;
   margin: 10px;
 
   background-image:url("../images/img2.jpg.png");
@@ -19,6 +20,9 @@ section{
 
 #target{
   height: 10%;
+  width: 3%;
+  background-color: blueviolet;
+  border: 1px solid black;
   width: 10%;
   background-image: url(../images/duck-silhouette-clip_1305533.png);
   background-size: cover;
