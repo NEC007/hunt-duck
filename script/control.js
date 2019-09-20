@@ -5,19 +5,41 @@ let downValue = 40;
 let leftValue = 40;
 let rightValue = 40;
 
-function move(event) {
+function move(e) {
     console.log(event.code);
-    if (event.code === "ArrowDown") {
-        topValue += 10;
-    }else if (event.keycode === "40"){
-        downValue +=10;
+    switch(e.keyCode){
+        case 37:{
+            topValue +=10;
+            break;
+        }
+        case 38:{
+            downValue +=10;
+            break;
+        }
+        case 39:{
+            leftValue +=10;
+            break;
+        }
+        case 40:{
+            rightValue +=10;
+            break;
+        }
     }
-    else if (event.keycode === "39"){
-        leftValue +=10;
-    }else if (event.keycode === "38"){
-        rightValue += 10;
+    
+    
+    /*
+    if (event.keyCode == "38") {
+        step += 10;
+    }else if (event.keyCode == "37"){
+        step +=10;
     }
-
+    else if (event.keyCode == "40"){
+        step +=10;
+    }else if (event.keyCode == "39"){
+        step += 10;
+    }
+    */
+    /*
     if (topValue > 90) {
         topValue = 0;
     }else if (downValue >90){
@@ -27,5 +49,10 @@ function move(event) {
     }else if(rightValue > 90){
         rightValue = 0;
     }
+    */
+    
     document.querySelector("div").style.top = topValue + '%';
+    document.querySelector("div").style.bottom = downValue + '%';
+    document.querySelector("div").style.left = leftValue + '%';
+    document.querySelector("div").style.right = rightValue + '%';
 }
