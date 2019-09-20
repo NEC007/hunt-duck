@@ -1,7 +1,10 @@
 body{
     box-sizing: border-box;
     margin: 0%;
+<<<<<<< HEAD
     
+=======
+>>>>>>> cef3d4027f00b038ffe528862ea4b3426fa84fb4
     
 }
 
@@ -10,11 +13,10 @@ section{
   width: 1800px;
   margin: 10px;
 
-
   background-image:url("../images/img2.jpg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 
   border: 1px solid red;
   position:relative;
