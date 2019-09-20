@@ -1,19 +1,19 @@
 body{
     box-sizing: border-box;
-    
+    height: 1000px;
+    margin: auto;
 }
 
-
 section{
-  height: 800px;
-  width: 1200px;
+  height: 90%;
+  width: 90%;
   margin-right: 15px;
   margin-left: 15px;
-
 
   background-image:url("../images/duck-hunt-background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   border: 1px solid red;
   position:relative;
@@ -22,8 +22,9 @@ section{
 #target{
   height: 10%;
   width: 10%;
-  background-color: blueviolet;
-  border: 1px solid black;
+  background-image: url(../images/duck-silhouette-clip_1305533.png);
+  background-size: cover;
+  border: 0px;
   position: absolute;
   top:40%;
   left:40%;
